@@ -25,3 +25,6 @@ Reglas del proceso
 3.	Evaluador no puede modificar o eliminar comentarios de Aprobador
 4.	Aprobador no puede modificar o eliminar comentarios de Evaluador
 5.	El Iniciador no puede modificar el presupuesto de un proyecto en estado Evaluado o Aprobado
+
+
+Sistema PROCOM
