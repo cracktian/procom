@@ -1,0 +1,230 @@
+/*  GLOBAL STYLES     
+=============================================*/
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F6F6F6;
+    color: #57584F;
+}
+.bg-azulTeck {
+    background-color: #0065BD;
+}
+.bg-azulTeck:hover{
+    background-color: #004D99;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -40px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 40px; /* .push must be the same height as .footer */
+}
+.footer {
+    border-top: 1px solid #C8C8C1;
+    padding-top: 10px;
+}
+.text-muted {
+    color: #C8C8C1; /* Sobreescribe color de Bootstrap */
+}
+
+
+/*  FORM STYLES from https://www.sanwebe.com/2014/08/css-html-forms-designs
+=============================================*/
+.form-style-10{
+    width:100%;
+    padding:30px;
+    margin:20px auto;
+    background: #0065BD;
+    border-radius: 10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}
+.form-style-10 .inner-wrap{
+    padding: 30px;
+    background: #353A41; /*Fondo etiquetas de formulario */
+    color: #0065BD;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+.form-style-10 h1{
+    background: #0065BD;
+    padding: 20px 30px 15px 30px;
+    margin: -30px -30px 30px -30px;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+    font: normal 30px 'Roboto', sans-serif;
+    -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    border: 1px solid #257C9E;
+}
+.form-style-10 h1 > span{
+    display: block;
+    margin-top: 2px;
+    /*font: 13px Arial, Helvetica, sans-serif;*/
+}
+.form-style-10 label{
+    display: block;
+    /*font: 13px Arial, Helvetica, sans-serif;*/
+    color: #C8C8C1; /* Color de fuente de etiquetas */
+    padding: 10px;
+}
+.form-style-10 input[type="text"],
+.form-style-10 input[type="date"],
+.form-style-10 input[type="datetime"],
+.form-style-10 input[type="email"],
+.form-style-10 input[type="number"],
+.form-style-10 input[type="search"],
+.form-style-10 input[type="time"],
+.form-style-10 input[type="url"],
+.form-style-10 input[type="password"],
+.form-style-10 textarea,
+.form-style-10 select {
+    display: block;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border: 1px solid #fff;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+    -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+}
+
+.form-style-10 .section{
+    font: normal 20px 'Roboto', sans-serif;
+    color: #F8F8F8;
+    margin-bottom: 5px;
+}
+.form-style-10 .section span {
+    background: #0065BD;
+    padding: 5px 10px 5px 10px;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: 4px solid #fff;
+    font-size: 14px;
+    margin-left: -45px;
+    color: #F8F8F8;
+    margin-top: -3px;
+}
+.form-style-10 input[type="button"], 
+.form-style-10 input[type="submit"]{
+    background: #57584F;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+    font: normal 30px 'Roboto', sans-serif;
+    -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    border: 1px solid #257C9E;
+    font-size: 15px;
+}
+.form-style-10 input[type="button"]:hover, 
+.form-style-10 input[type="submit"]:hover{
+    background: #2A6881;
+    -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+    -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+    box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+}
+.form-style-10 .privacy-policy{
+    float: right;
+    width: 250px;
+    /*font: 12px Arial, Helvetica, sans-serif;*/
+    color: #4D4D4D;
+    margin-top: 10px;
+    text-align: right;
+}
+
+
+/*  FLOWCHART STYLES     
+=============================================*/
+.option {
+    width: 60px;
+}
+.gray {
+    border-color: #D2CECE;
+    border-width: 1px;
+}
+.thead-light {
+    font-size: 16px;
+    color: #fff;
+}
+
+#tabla {
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+}
+
+
+/* CORPORATIVOS:
+
+Azul Teck
+CMYK 100 40 0 0
+RGB 0 101 189
+PANTONE 300
+HEX 0065BD
+
+Gris Teck
+CMYK 35 25 35 70
+RGB 87 88 79
+PANTONE 418
+HEX 57584F
+
+Celeste Teck
+CMYK 60 10 0 0
+RGB 150 188 231
+PANTONE 292
+HEX 96BCE7
+
+Verde Teck
+CMYK 65 0 100 5
+RGB 106 173 60
+PANTONE 369
+HEX 6AAD3C
+
+Anaranjado Teck
+CMYK 10 60 100 0
+RGB 215 105 30
+PANTONE 138
+HEX CC6600
+
+Rojo Teck
+CMYK 5 100 65 30
+RGB 150 23 46
+PANTONE 7427
+HEX 96172E
+
+Morado Teck
+CMYK 75 70 5 20
+RGB 105 77 125
+PANTONE 668
+HEX 694D7D
+
+Turquesa Teck
+CMYK 100 0 40 0
+RGB 0 165 153
+PANTONE 3272
+HEX 00A599
+*/
