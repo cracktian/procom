@@ -1,0 +1,376 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="img/icon32.png" />
+	<link rel="shortcut icon" type="image/x-icon" href="img/icon32.ico" />
+
+	<title>ProCom Teck CDA</title>
+
+	<!-- Bootstrap 4 core CSS -->
+	<link href="css/bootstrap4_A6.min.css" rel="stylesheet">
+
+	<!-- Custom styles and fonts for this template -->
+	<link href="css/custom.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+
+	<!-- Font Awesome Free 5.02 icons core JS -->
+	<script defer src="js/fontawesome-all.min.js"></script>
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-toggleable-md navbar-inverse bg-azulTeck fixed-top">
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<a class="navbar-brand" href="index.html">
+			<strong>ProCom Teck CDA</strong>
+		</a>
+		<div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#"> <i class="fa fa-list" aria-hidden="true"></i> Postulación <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"> <i class="fa fa-book" aria-hidden="true"></i> Portafolio </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"> <i class="fas fa-question"></i> Ayuda </a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container-fluid custom-background">
+
+		<div class="container wrapper">
+			<p class="separator"></p>
+			<div class="jumbotron trans">
+
+				<form action="#">
+					<h1>1. Identificación de la institución y Representante legal</h1>
+					<p class="separator"></p>
+
+					<a class="btn btn-outline-primary paneles" data-toggle="collapse" href="#form1" aria-expanded="false" aria-controls="form1">1.1 Antecedentes de la institución</a>
+					<div class="collapse" id="form1">
+						<div class="card card-block">
+
+							<div class="form-group row">
+								<label for="rut_institucion" class="col-3 col-form-label">RUT Institución</label>
+								<div class="col-md-9">
+									<input type="text" class="form-control" id="rut_institucion" name="rut_institucion">
+								</div>
+							</div>
+							<div class="form-group row">
+								<label for="nombre_institucion" class="col-3 col-form-label">Nombre Institución</label>
+								<div class="col-md-9">
+									<input type="text" class="form-control" id="nombre_institucion" name="nombre_institucion">
+								</div>
+							</div>
+							<div class="form-group row">
+								<label for="razon_social" class="col-3 col-form-label">Razón Social</label>
+								<div class="col-md-9">
+									<input type="text" class="form-control" id="razon_social" name="razon_social" aria-describedby="help_razon_social">
+									<span id="help_razon_social" class="form-text text-muted">Escribir el nombre que aparece en el RUT entregado por el SII</span>
+								</div>
+							</div>
+							<div class="form-group row">
+								<label for="tipo_organizacion" class="col-3 col-form-label">Tipo de organización</label>
+								<div class="col-md-4">
+									<input type="text" class="form-control" id="tipo_organizacion" name="tipo_organizacion" aria-describedby="help_tipo_organizacion">
+									<span id="help_tipo_organizacion" class="form-text text-muted">Ejemplo: Junta de Vecinos, Club Deportivo, Club de Adulto Mayor, Corporación, Unión Comunal, Fundación, Agrupación Cultural, etc.</span>
+								</div>
+								<label class="col-3 col-form-label">Personalidad jurídica</label>
+								<div class="col-md-2">
+									<select class="custom-select">
+										<option selected value="1">Vigente</option>
+										<option value="2">No vigente</option>
+									</select>
+								</div>
+							</div>
+							<div class="form-group row">
+								<label for="calle_institucion" class="col-3 col-form-label">Calle</label>
+								<div class="col-md-4">
+									<input type="text" class="form-control" id="calle_institucion" name="calle_institucion">
+								</div>
+								<label for="numero_institucion" class="col-3 col-form-label">Número</label>
+								<div class="col-md-2">
+									<input type="text" class="form-control" id="numero_institucion" name="numero_institucion">
+								</div>
+							</div>
+							<div class="form-group row">
+								<label for="villa_institucion" class="col-3 col-form-label">Villa o Población</label>
+								<div class="col-md-9">
+									<input type="text" class="form-control" id="villa_institucion" name="villa_institucion">
+								</div>
+							</div>
+							<div class="form-group row">
+								<label for="comuna_institucion" class="col-3 col-form-label">Comuna Institución</label>
+								<div class="col-md-9">
+									<input type="text" class="form-control" id="comuna_institucion" name="comuna_institucion">
+								</div>
+							</div>
+							<div class="form-group row">
+								<label for="telefono_institucion" class="col-3 col-form-label">Teléfono fijo</label>
+								<div class="col-md-3">
+									<input type="text" class="form-control" id="telefono_institucion" name="telefono_institucion">
+								</div>
+								<label for="celular_institucion" class="col-3 col-form-label">Teléfono móvil</label>
+								<div class="col-md-3">
+									<input type="text" class="form-control" id="celular_institucion" name="celular_institucion">
+								</div>
+							</div>
+							<div class="form-group row">
+								<label for="email_institucion" class="col-3 col-form-label">Correo electrónico</label>
+								<div class="col-md-3">
+									<input type="text" class="form-control" id="email_institucion" name="email_institucion">
+								</div>
+							</div>
+							<div class="form-group row">
+								<label for="banco_institucion" class="col-3 col-form-label">Banco</label>
+								<div class="col-md-9">
+									<input type="text" class="form-control" id="banco_institucion" name="banco_institucion">
+								</div>
+							</div>
+							<div class="form-group row">
+								<label for="tipocuenta_institucion" class="col-3 col-form-label">Tipo de cuenta</label>
+								<div class="col-md-3">
+									<input type="text" class="form-control" id="tipocuenta_institucion" name="tipocuenta_institucion">
+								</div>
+								<label for="numcuenta_institucion" class="col-3 col-form-label">Número de cuenta</label>
+								<div class="col-md-3">
+									<input type="text" class="form-control" id="numcuenta_institucion" name="numcuenta_institucion">
+								</div>
+							</div>
+
+						</div>
+					</div><!-- /.collapse form1 -->
+
+					<a class="btn btn-outline-primary paneles" data-toggle="collapse" href="#form2" aria-expanded="false" aria-controls="form2">1.2 Antecedentes del representante legal</a>
+					<div class="collapse" id="form2">
+						<div class="card card-block">
+
+							<div class="form-group row">
+								<label for="nombre_representante" class="col-3 col-form-label">Nombre</label>
+								<div class="col-md-5">
+									<input type="text" class="form-control" id="nombre_representante" name="nombre_representante">
+								</div>
+								<label for="rut_representante" class="col-2 col-form-label">RUT</label>
+								<div class="col-md-2">
+									<input type="text" class="form-control" id="rut_representante" name="rut_representante">
+								</div>
+							</div>
+							<div class="form-group row">
+								<label for="calle_representante" class="col-3 col-form-label">Calle</label>
+								<div class="col-md-5">
+									<input type="text" class="form-control" id="calle_representante" name="calle_representante">
+								</div>
+								<label for="numero_representante" class="col-2 col-form-label">Número</label>
+								<div class="col-md-2">
+									<input type="text" class="form-control" id="numero_representante" name="numero_representante">
+								</div>
+							</div>
+							<div class="form-group row">
+								<label for="villa_representante" class="col-3 col-form-label">Villa o Población</label>
+								<div class="col-md-3">
+									<input type="text" class="form-control" id="villa_representante" name="villa_representante">
+								</div>
+								<label for="comuna_representante" class="col-3 col-form-label">Comuna</label>
+								<div class="col-md-3">
+									<input type="text" class="form-control" id="comuna_representante" name="comuna_representante">
+								</div>
+							</div>
+							<div class="form-group row">
+								<label for="celular_representante" class="col-3 col-form-label">Teléfono móvil</label>
+								<div class="col-md-3">
+									<input type="text" class="form-control" id="celular_representante" name="celular_representante">
+								</div>
+								<label for="email_representante" class="col-3 col-form-label">Correo electrónico</label>
+								<div class="col-md-3">
+									<input type="text" class="form-control" id="email_representante" name="email_representante">
+								</div>
+							</div>
+						</div>
+					</div><!-- /.collapse form2 -->
+
+					<a class="btn btn-outline-primary paneles" data-toggle="collapse" href="#form3" aria-expanded="false" aria-controls="form3">1.3 Antecedentes del encargado del proyecto</a>
+					<div class="collapse" id="form3">
+						<div class="card card-block">
+
+							<div class="form-group row">
+								<label for="nombre_encargado" class="col-3 col-form-label">Nombre</label>
+								<div class="col-md-5">
+									<input type="text" class="form-control" id="nombre_encargado" name="nombre_encargado">
+								</div>
+								<label for="rut_encargado" class="col-2 col-form-label">RUT</label>
+								<div class="col-md-2">
+									<input type="text" class="form-control" id="rut_encargado" name="rut_encargado">
+								</div>
+							</div>
+							<div class="form-group row">
+								<label for="calle_encargado" class="col-3 col-form-label">Calle</label>
+								<div class="col-md-5">
+									<input type="text" class="form-control" id="calle_encargado" name="calle_encargado">
+								</div>
+								<label for="numero_encargado" class="col-2 col-form-label">Número</label>
+								<div class="col-md-2">
+									<input type="text" class="form-control" id="numero_encargado" name="numero_encargado">
+								</div>
+							</div>
+							<div class="form-group row">
+								<label for="villa_encargado" class="col-3 col-form-label">Villa o Población</label>
+								<div class="col-md-3">
+									<input type="text" class="form-control" id="villa_encargado" name="villa_encargado">
+								</div>
+								<label for="comuna_encargado" class="col-3 col-form-label">Comuna</label>
+								<div class="col-md-3">
+									<input type="text" class="form-control" id="comuna_encargado" name="comuna_encargado">
+								</div>
+							</div>
+							<div class="form-group row">
+								<label for="celular_encargado" class="col-3 col-form-label">Teléfono móvil</label>
+								<div class="col-md-3">
+									<input type="text" class="form-control" id="celular_encargado" name="celular_encargado">
+								</div>
+								<label for="email_encargado" class="col-3 col-form-label">Correo electrónico</label>
+								<div class="col-md-3">
+									<input type="text" class="form-control" id="email_encargado" name="email_encargado">
+								</div>
+							</div>
+						</div>
+					</div><!-- /.collapse form3 -->
+
+					<p class="separator"></p>
+					<h1>2. Antecedentes del Proyecto</h1>
+					<p class="separator"></p>
+
+
+					<a class="btn btn-outline-primary paneles" data-toggle="collapse" href="#form4" aria-expanded="false" aria-controls="form4">2.1 Antecedentes generales</a>
+					<div class="collapse" id="form4">
+						<div class="card card-block">
+
+							<div class="form-group row">
+								<label for="nombre_encargado" class="col-3 col-form-label">Nombre del Proyecto</label>
+								<div class="col-md-5">
+									<input type="text" class="form-control" id="nombre_encargado" name="nombre_encargado">
+								</div>
+
+								<label for="rut_encargado" class="col-2 col-form-label">RUT</label>
+								<div class="col-md-2">
+									<input type="text" class="form-control" id="rut_encargado" name="rut_encargado">
+								</div>
+							</div>
+
+							<div class="form-group row">
+								<label class="col-3 col-form-label">Ámbitos de acción del proyecto</label>
+								<div class="col-md-9">
+									<label for="chk_ambito1" class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="chk_ambito1" value="ambito1">
+										<span class="custom-control-indicator"></span>
+										<span class="custom-control-description">Salud y bienestar</span>
+									</label>
+									<label for="chk_ambito2" class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="chk_ambito2" value="ambito2">
+										<span class="custom-control-indicator"></span>
+										<span class="custom-control-description">Medioambiente y energía</span>
+									</label>
+									<label for="chk_ambito3" class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="chk_ambito3" value="ambito3">
+										<span class="custom-control-indicator"></span>
+										<span class="custom-control-description">Desarrollo económico</span>
+									</label>
+									<label for="chk_ambito4" class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="chk_ambito4" value="ambito4">
+										<span class="custom-control-indicator"></span>
+										<span class="custom-control-description">Educación y habilidades</span>
+									</label>
+									<label for="chk_ambito5" class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="chk_ambito5" value="ambito5">
+										<span class="custom-control-indicator"></span>
+										<span class="custom-control-description">Deportes y recreación</span>
+									</label>
+									<label for="chk_ambito6" class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="chk_ambito6" value="ambito6">
+										<span class="custom-control-indicator"></span>
+										<span class="custom-control-description">Arte y cultura</span>
+									</label>
+
+									<div class="form-group row">
+										<label for="otro_ambito" class="col-3 col-form-label">Otros (detallar)</label>
+										<div class="col-md-9">
+											<input type="text" class="form-control" id="otro_ambito" name="otro_ambito">
+										</div>
+
+									</div>
+								</div><!-- /.card checkboxes-->
+
+							</div><!-- /.form-group ámbitos de acción-->
+
+							<div class="form-group row">
+								<label for="fecha_inicio" class="col-3 col-form-label">Fecha de inicio</label>
+								<div class="col-md-3">
+									<input type="date" class="form-control" id="fecha_inicio" name="fecha_inicio">
+								</div>
+								<label for="fecha_termino" class="col-3 col-form-label">Fecha de término</label>
+								<div class="col-md-3">
+									<input type="date" class="form-control" id="fecha_termino" name="fecha_termino">
+								</div>
+							</div>
+
+							<div class="form-group row">
+								<label for="duracion" class="col-3 col-form-label">Duración (días o meses)</label>
+								<div class="col-md-3">
+									<input type="text" class="form-control" id="duracion" name="duracion">
+								</div>
+
+							</div>
+
+							<div class="form-group row">
+								<label for="justificacion" class="col-3 col-form-label">Justificación</label>
+								<div class="col-md-9">
+									<textarea class="form-control" id="justificacion" name="justificacion" cols="40" rows="5"></textarea>
+								</div>
+
+							</div>
+
+						</div><!-- /.card-block 2.1-->
+					</div><!-- /.collapse form4 -->
+
+
+					<p class="separator"></p>
+					<div class="form-group row">
+						<div class="offset-3 col-md-9">
+							<button type="submit" class="btn btn-primary">Guardar</button>
+							<button type="submit" class="btn btn-primary">Enviar a Evaluación</button>
+						</div>
+					</div>
+				</form>
+			</div><!-- /.Jumbotron -->
+			<div class="push">
+				<!-- empty div, just for balancing footer -->
+			</div>
+		</div><!-- /.container wrapper-->
+
+	</div><!-- /.container-fluid -->
+
+	<footer class="footer trans" id="footer">
+		<div class="container-fluid">
+			<span class="text-muted">Superintendencia de Administración y Gestión</span>
+		</div>
+	</footer>
+
+	<!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap4_A6.min.js"></script>
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<script src="js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
